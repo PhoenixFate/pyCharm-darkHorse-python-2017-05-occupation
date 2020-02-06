@@ -11,7 +11,7 @@ def main():
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
     # 目标地址
-    dest_addr = ("192.168.0.107", 8099)
+    dest_addr = ("127.0.0.1", 8099)
 
     # 自己的程序，如果不指定端口，会随机分配一个端口
     # 手动绑定端口端口
